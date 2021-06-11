@@ -1,0 +1,339 @@
+/* start ruze */
+body{
+    color: #6AA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px; 	
+	background-repeat: repeat;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.container-y{
+    width:100%;
+	margin: 0 auto;
+	padding: 0;
+	
+    
+}
+
+.container-x{
+    width:90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container-copy{
+	background-image: url("image/tooplate_menu_hover.png");
+	clear: both;
+	background-repeat: round;
+}
+
+.container{padding: 50px 32px;clear: both; text-transform: capitalize;}
+.container-nav{padding: 1px 80px;clear: both; text-transform: capitalize;}
+.container-footer{clear: both;width: 989px;
+margin: auto;}
+
+.but{
+
+	border-radius:6px;
+	text-transform: capitalize;
+}
+
+h2{color:#cff;font-weight: bold;}
+h3{color:#215;}
+h4{color:#6AA}
+p{line-height: 1.7;color: #59E;font-family: sans-serif;}
+sup{color: #800;font-size: 100%;font-weight: bold;}
+/* end  ruze */
+
+/* start header */
+.header{overflow: hidden;background: url("image/tooplate_wrapper.png") center top no-repeat;}
+/* end header */
+/* start navbar */
+/**************************************
+*                                      *
+*              navbar                  *
+*                                      *
+***************************************/
+.header .navbar{overflow: hidden;background-color:#FFF;background-image: url("image/tooplate_wrapper.png");margin: auto;width: 100%;}
+.header .navbar h2{float: left;font-family: cursive;    margin: 20px;}
+.header .navbar h2 a{text-decoration: none;color: black;margin: 10px;}
+.header .navbar h2 span{color:brown;}
+.header .navbar h2 a:hover{
+    background-color:#999;
+    color: #FFF;
+    padding: 5px 15px 5px 15px;
+    font-weight: 700;
+	box-shadow: 1px 1px 6px 6px darkred;text-align: center;;
+}
+.header .navbar ul{list-style: none;overflow: hidden;float: right;}
+.header .navbar ul li{float: left;padding: 10px 0 10px 10px;}
+.header .navbar ul li a{text-decoration: none;color: black;margin: 10px;}
+.header .navbar ul li a:hover{
+    background-color:#999;
+    color: #FFF;
+    padding: 5px 15px 5px 15px;
+    font-weight: 700;
+	box-shadow: 1px 1px 6px 6px darkred;text-align: center;
+}
+.header .navbar-search{
+    
+    overflow: hidden;
+    background-color: #FFF;
+    background-image: url("image/tooplate_body_2.jpg");
+    margin: 10px 0;
+    width: 100%;
+    padding: 15px 0 5px;
+    text-align: center;
+}
+.header .navbar-search .container-nav form .put{
+    font-size: 17px;
+    color: #666;
+    height: 6%;
+    text-align: center;
+    width: 50%;
+    margin: 0 20px;
+    border: 3px solid #800;
+    font-weight: bold;
+    outline:inherit;
+}
+.header .navbar-search .container-nav form .but{padding: 7px 35px;}
+/* end navbar */
+/* start slider */
+.header .slider{
+	overflow: hidden;
+	height: 300px;
+	background-image: url("image/tooplate_middle.png");
+	background-size:100% 100%;
+	text-align: center;
+	font-family: fantasy;
+}
+.header .slider .tex{padding:auto;}
+.header .slider .tex h2{
+	color:#fff;
+	font-weight: 700;
+	font-size: 35px;
+	font-family: cursive;
+}
+.header .slider .tex p{
+	color:#fff;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: monospace;
+}
+.header .slider .tex button{
+	padding: 15px 60px;
+	margin: 20px 0;
+	font-weight: bold;
+	font-family: serif;
+}
+.header .slider .tex button a{text-decoration: none;color: black;}
+/* end slider */
+
+/* start Our */
+.Our{overflow: hidden;}
+.Our h2{font-size: 30px;font-family: "Lucida Console", "Courier New", monospace;;color: #CD7;}
+.Our p{padding: auto;margin: 0 auto;font-size: 20px;color: #121;}
+/* end Our */
+
+/********** start about us ************/
+.about-us{overflow: hidden;margin: 40px 0; background-color: #f5f5f5;}
+.about-us .about{width: 50%;float: left;}
+.about-us .me{width: 40%;float: left;margin-left: 60px;}
+.about-us .about h2{color: chartreuse;font-weight: bold;font-size: 40px;}
+.about-us .about h2 strong{color: black;font-family: cursive;padding: auto;margin: 0 auto;font-size: 20px;color: #121;}
+.about-us .about h2 span{color:black;}
+.about-us .about p{line-height: 38px;padding: auto;margin: 0 auto;font-size: 20px;color: #121;}
+.about-us .me{margin-top: 32px}
+.about-us .me .tech{width: 100%}
+/********** end about us ************/
+/************ start progects ***************/
+.progect {text-align: center;margin: 30px 0;overflow: hidden;line-height: 1.7;}
+.progect h2{font-weight: 900;font-size: 40px;color: rgb(117, 170, 112);}
+.progect button{
+	border: 0 solid ;
+	border-radius: 6px;
+	background-color:chartreuse;
+	color:#333;
+	padding:25px 50px;
+	font-size:30px;
+	font-weight: 800;
+	margin: 20px 0;
+	text-align:center;
+}
+.progect .pro .tet{width: 33.333333%;float: left;}
+.progect .pro .tet img{
+	height: 80%;
+	width: 80%;
+	margin:25px 1px ;
+	background-color: #fff;
+	border:	1px solid #ccc;
+box-shadow: 1px 1px 3px 3px #ccc;
+}
+.progect .container{padding: 0;margin: 0;}
+/************ start progects ***************/
+/************ start progects ***************/
+.OurSkills {text-align: center;margin: 30px 0;overflow: hidden;line-height: 1.7; background-color: #f5f5f5;}
+
+.OurSkills .pro .tet{width: 20%;float: left;}
+.OurSkills .container{padding: 0;margin: 0;}
+/************ start progects ***************/
+/******** start info *************/
+.info{padding:30px 60px;overflow: hidden; background-color: #f5f5f5;}
+.info h2{font-weight: 900;font-size: 40px;color: rgb(117, 170, 112);padding-bottom: 30px;}
+.info .fex{width:20%;float: left;overflow: hidden;padding-left: 50px;}
+.info .fex hr{width: 100%;color: rgba(30, 70, 30, 0.77);}
+.info .fex .text{float: left;}
+.info .fex .text h3 {font-size:18px;}
+.info .fex .text p {color: #3f5f43;}
+.info .fex .icon {float: left;overflow: hidden;margin: 0 auto;height: 150px;}
+.info .fex .icon img{width: 100%;height: 100%;}
+/******** end info *************/
+/******** start contact *************/
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px;  
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px; 
+}
+input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {background-color: #45a049;}
+.Contact {border-radius: 5px;padding: 20px;}
+.Contact form{width: 40%;margin: auto;}
+/************ End Contact ***************/
+/************ start footer ***************/
+.footer{overflow: hidden;margin: 15px 0 0 0;}
+.footer .text{width: 50%;float: left;padding-left: 5%;overflow: hidden;}
+.footer .text span{color: red;}
+.footer .text a{text-decoration: none;font-family: cursive;margin: 5px;padding: 5px;font-weight: bold;}
+.footer .icon{width: 45%;float: right;overflow: hidden;}
+.footer .icon ul{list-style: none;}
+.footer .icon ul li{float: left;padding-left: 30px;font-size: 25px;}
+.footer .icon ul li a {color: #333;}
+/************ end footer ***************/
+/************ start Sign Up ***************/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {background-color: #ddd;outline: none;}
+button {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+button:hover {opacity:1;}
+.cancelbtn {padding: 14px 20px;background-color: #f44336;}
+.cancelbtn, .signupbtn {float: left;width: 50%;}
+hr {border: 1px solid #f1f1f1;margin-bottom: 25px;}
+.close {
+	position: absolute;
+	right: 35px;
+	top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f1f1f1;
+}
+.close:hover,
+.close:focus {color: #f44336;cursor: pointer;}
+/* Clear floats */
+.clearfix::after {content: "";clear: both;display: table;}
+#IdSignUp{width: 50%;margin: auto;background-color: brown;}
+/************ End Sign Up ***************/
+/************ Start Sign In ****************/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+	background-color: #04AA6D;
+	color: white;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  button:hover {
+	opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtnIn {
+	width: auto;
+	background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+  }
+  
+  img.avatar {width: 20%;border-radius: 50%;}
+  
+  
+  span.psw {float: right;padding-top: 16px;}
+
+  /* The Modal (background) */
+
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 5% auto auto auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 30%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  /* The Modal (background) */
+.modal {
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .close:hover,
+  .close:focus {color: red;cursor: pointer;}
+/************ end Sign Up ****************/
